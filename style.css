@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #7a00ff5c;    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    height: 50px;
+    background: #370055ca;
+    display: flex;
+    align-items: center;  
+   
+}
+
+header h1{
+    padding-left: 5px;
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px double white;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;    
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: Center;
+    margin-left: 160px;  
+    width: 400px;
+    height: 25px;
+    outline: none;
+    border: 3px solid black;
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+}
+
+.search{
+    height: 25px;
+    width: 30px;
+    background-color: #ce00ffab;
+    display: flex;
+    align-items: center;
+    justify-content: Center;
+    border: 3px solid black;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;    
+}
+
+.pannel{
+    height: 25px;
+    background: #47006fab;
+    display: flex;
+    align-items: center;    
+}
+
+.pannel marquee{
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.BTS{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btsimg{
+    height: 500px;
+    width: 785px;
+    background: grey;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px; 
+    border: 2px solid black;
+}
+
+.bts{
+    height: 485px;
+    width: 750px;
+    border: 2px solid black;
+    background-size: cover;
+    display: flex;
+}
+
+.X{
+    width: 785px;
+    background: #767681;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-top: none;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 40px magenta;
+}  
+
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.content1 , .content2 , .content3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img1 , .img2 , .img3 , .img4 , .img5 , .img6 , .img7{
+    height: 350px;
+    width: 30%;
+    background: grey;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px; 
+    border: 2px solid black;
+}
+
+.Taehyung , .jungkook , .jimin , .jhope , .suga , .RM , .jin {
+    height: 340px;
+    width: 270px;
+    border: 2px solid black;
+    background-size: cover;
+    display: flex;
+}  
+
+
+.name1 , .name2 , .name3{
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.A , .B , .C , .D , .E , .F , .G{
+    width: 30%;
+    background: #767681;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-top: none;
+    text-shadow: 1px 1px 5px white;
+}  
+  
+.space{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.few-lines{
+    height: 150px;
+    width: 500px;
+    border: 2px double black;
+    background: white;
+    border-radius: 20px;
+}
+
+.few-lines p{
+    text-shadow: 5px 5px 20px purple;
+}
+
+.b{
+    height: 154px;
+    width: 503px;
+    background: white;
+    border: 2px dotted black;
+    border-radius: 23px;
+}
+
+.copyright{
+    border-top: 1px solid black;
+    background: #af6aff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.licence{
+    border-top: 1px solid black;
+    background: #643d92;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    border-top: 1px solid black;
+    background: #af6aff;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
